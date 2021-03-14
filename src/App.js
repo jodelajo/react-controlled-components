@@ -85,7 +85,7 @@ function App() {
                 name="button"
                 type="submit"
                 value={state.button}
-            >Versturen</button>
+            >Verstuur</button>
         </fieldset>
     </form>
     </>
