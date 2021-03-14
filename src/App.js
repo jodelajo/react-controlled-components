@@ -2,30 +2,6 @@ import React from 'react';
 import './App.css';
 
 function App() {
-    // const [nameValue, setNameValue] = React.useState('');
-    // const [ageValue, setAgeValue] = React.useState('');
-    // const [selectValue, setSelectValue] = React.useState('');
-    // const [messageValue, setMessageValue] = React.useState('');
-    // const [submitted, setSubmitted] = React.useState(false);
-
-    // function getName(e) {
-    //     setNameValue(e.target.value)
-    // }
-    // function getAge(e) {
-    //     setAgeValue(e.target.value)
-    // }
-    // function getSelectBox(e){
-    //     setSelectValue(e.target.value)
-    // }
-    // function getMessage(e){
-    //     setMessageValue(e.target.value)
-    // }
-    // function sendForm(e){
-    //     console.log(`${nameValue} ${ageValue} ${selectValue} ${messageValue}`);
-    //     setSubmitted(true);
-    //     e.preventDefault();
-    // }
-
     const [state, setState] = React.useState({
         name:'',
         age:'',

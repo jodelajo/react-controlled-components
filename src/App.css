@@ -10,11 +10,12 @@ body {
 }
 legend {
     font-size: 28px;
-    background-color: deeppink;
+    background-color: #010101;
     border-radius: 24px;
     padding: 2px 12px;
     border: 2px solid #000;
     width: 200px;
+    color: white;
 }
 
 .fieldset, .fieldset-review {
@@ -23,8 +24,8 @@ legend {
     width: 500px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 30px;
+    align-items: stretch;
+    padding: 20px 40px;
     row-gap: 10px;
     margin-bottom: 20px;
     border: 2px solid #000;
@@ -33,19 +34,20 @@ legend {
 
 .fieldset-review {
     row-gap: 20px;
+    align-items: stretch;
 }
 .label {
     display: flex;
-    width: 450px;
+    /*width: 450px;*/
     justify-content: space-between;
     align-items: center;
-    /*column-gap: 10px;*/
+    font-size: 20px;
 }
 .input-field {
-    width: 350px;
+    width: 400px;
     height: 25px;
     border: 2px solid #000;
-    padding-left: 3px;
+    padding: 0 3px;
     font-size: 16px;
     color: black;
     font-weight: bold;
@@ -58,6 +60,7 @@ legend {
     font-weight: bold;
     font-family: "Courier New";
     padding: 2px;
+    align-self: flex-start;
 
     border: 2px solid #000;
 }
@@ -68,16 +71,18 @@ legend {
 .label-review {
     display: flex;
     flex-direction: column;
-    row-gap: 20px;
+    row-gap: 12px;
     align-items: flex-start;
     justify-content: flex-start;
+    font-size: 20px;
 }
 
 .textarea {
-    width: 450px;
+    width: 95%;
     height: 100px;
     border: 2px solid #000;
-    font-size: 16px;
+
+    font-size: 18px;
     color: black;
     font-weight: bold;
     font-family: "Courier New";
@@ -94,7 +99,9 @@ button {
     font-weight: bold;
     width: 235px;
     cursor: pointer;
-    color: deeppink;
+    color: white;
+    align-self: center;
+    font-variant: all-small-caps;
 }
 button:hover {
     background-color: lightpink;
