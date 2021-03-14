@@ -43,8 +43,6 @@ function App() {
         });
         e.preventDefault();
         console.log(state.name, state.age, state.selectBlock, state.message)
-
-        // console.log(`${state.name} ${state.age} ${state.selectBlock} ${state.message}`);
     }
 
   return (
@@ -76,23 +74,23 @@ function App() {
         <fieldset className="fieldset-review">
             <legend>Jouw review</legend>
             <label htmlFor="select" className="label-review">Hoe heb je dit recept gevonden?
-
                 <select
+                    form=""
                     name="selectBlock"
-                    id="select"
+                    id="select-block"
                 value={state.selectBlock}
                 onChange={handleChange}
                 >
-                    <option value="Google">
+                    <option className="option" value="Google">
                         Google
                     </option>
-                    <option value="Vriend">
+                    <option className="option" value="Vriend">
                         Vriend
                     </option>
-                    <option value="Advertentie">
+                    <option className="option" value="Advertentie">
                         Advertentie
                     </option>
-                    <option value="Anders">
+                    <option className="option" value="Anders">
                        Anders
                     </option>
                 </select>

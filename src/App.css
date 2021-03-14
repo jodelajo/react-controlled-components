@@ -30,22 +30,39 @@ legend {
     border: 2px solid #000;
     border-radius: 24px;
 }
-.fieldset {
-
-}
 
 .fieldset-review {
     row-gap: 20px;
 }
 .label {
     display: flex;
-    width: 300px;
+    width: 450px;
     justify-content: space-between;
+    align-items: center;
     /*column-gap: 10px;*/
 }
 .input-field {
-    width: 200px;
+    width: 350px;
+    height: 25px;
     border: 2px solid #000;
+    padding-left: 3px;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    font-family: "Courier New";
+}
+
+#select-block {
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    font-family: "Courier New";
+    padding: 2px;
+
+    border: 2px solid #000;
+}
+.option {
+    background-color: red;
 }
 
 .label-review {
@@ -63,21 +80,23 @@ legend {
     font-size: 16px;
     color: black;
     font-weight: bold;
-    font-family: Arial;
-    padding: 2px;
+    font-family: "Courier New";
+    padding: 2px 5px;
 }
-.textarea a {
 
-}
 
 button {
     font-size: 28px;
-    background-color: deeppink;
+    background-color: #010101;
     border-radius: 24px;
     padding: 2px 12px;
     border: 2px solid #000;
     font-weight: bold;
     width: 235px;
     cursor: pointer;
-
+    color: deeppink;
+}
+button:hover {
+    background-color: lightpink;
+    color: #010101;
 }
